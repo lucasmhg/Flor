@@ -1,0 +1,80 @@
+
+
+
+body {
+    background: linear-gradient(90deg, #d4d67a, #b02f2f );
+   
+  }
+  
+.flor {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin:  10% auto;
+}
+.tallo {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin:  10% auto;
+}
+
+.tallo1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 40px;
+    height: 480px;
+    background-color: #20cc3a;
+}
+
+.petalo {
+    position: absolute;
+    width: 100px;
+    height: 300px;
+    background-color: pink;
+    border-radius: 0 100px 0 50px 
+}
+.petalo:nth-child(1) { transform: rotate(0deg); left: 25px; }
+.petalo:nth-child(2) { transform: rotate(45deg); left: 25px; }
+.petalo:nth-child(3) { transform: rotate(90deg); left: 25px; }
+.petalo:nth-child(4) { transform: rotate(135deg); left: 25px; }
+.petalo:nth-child(5) { transform: rotate(180deg); left: 25px; }
+.petalo:nth-child(6) { transform: rotate(225deg); left: 25px; }
+.petalo:nth-child(7) { transform: rotate(270deg); left: 25px; }
+.petalo:nth-child(8) { transform: rotate(315deg); left: 25px; }
+.centro {
+    position: absolute;
+    top: 118%;
+    left: 44%;
+    width: 60px;
+    height: 60px;
+    background-color: #d11111;
+    border-radius: 50px 10px
+}
+.centro2 {
+    position: absolute;
+    top: 118%;
+    left: 44%;
+    width: 60px;
+    height: 60px;
+    background-color: #d11111;
+    border-radius: 10px 50px
+}
+
+@media (max-width: 600px) {
+    .petalo {
+        background-color: #64cde8;
+    }
+    .centro {
+        background-color: darkgrey;
+    }
+    .centro2 {
+        background-color: darkgrey;
+    }
+    body {
+        background: linear-gradient(90deg, #3b7487, #2a0841 );
+      }
+    .tallo1 {
+        background-color: #1a9859
+}
